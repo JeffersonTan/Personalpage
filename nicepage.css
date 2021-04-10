@@ -32507,6 +32507,10 @@ a.u-link.u-text-hover-grey-90:hover {
     min-height: 115px;
   }
 
+  .u-header .u-image-1 {
+    width: auto;
+  }
+
   .u-header .u-menu-1 {
     margin-top: -50px;
   }
