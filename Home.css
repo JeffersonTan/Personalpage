@@ -159,14 +159,6 @@
   top: -39%;
 }
 
-.u-section-4 .u-video-poster-1 {
-  width: 56%;
-  left: 22%;
-  height: 56%;
-  top: 22%;
-  background-image: url(https://pbs.twimg.com/media/Ep7t8AyXMAACjPr.jpg);
-}
-
 .u-section-4 .u-layout-cell-3 {
   min-height: 307px;
   pointer-events: auto;
@@ -216,11 +208,6 @@
   .u-section-4 .u-video-1 {
     background-position: 50% 50%;
     min-height: 253px;
-  }
-
-  .u-section-4 .u-video-poster-1 {
-    width: auto;
-    height: auto;
   }
 
   .u-section-4 .u-layout-cell-3 {
