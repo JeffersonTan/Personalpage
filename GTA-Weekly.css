@@ -4,15 +4,13 @@
 
 .u-section-1 .u-custom-html-1 {
   min-height: 768px;
-  height: auto;
   margin-top: 0;
   margin-bottom: 0;
-  width: 1300px;
 }
 
 @media (max-width: 1199px) {
   .u-section-1 .u-custom-html-1 {
-    width: auto;
+    height: auto;
   }
 }/* Hide scrollbar for Chrome, Safari and Opera */
 .html::-webkit-scrollbar {
