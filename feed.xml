@@ -3,7 +3,7 @@
     <title>Jefferson Tan&#x27;s Webpage</title>
     <link href="https://jeffersontan.xyz/feed.xml" rel="self" />
     <link href="https://jeffersontan.xyz" />
-    <updated>2024-04-29T02:28:07+07:00</updated>
+    <updated>2024-04-29T02:44:13+07:00</updated>
     <author>
         <name>Jefferson Tan</name>
     </author>
@@ -14,8 +14,9 @@
         <author>
             <name>Jefferson Tan</name>
         </author>
-        <link href="https://jeffersontan.xyz/hi-im-jefferson/"/>
-        <id>https://jeffersontan.xyz/hi-im-jefferson/</id>
+        <link href="https://jeffersontan.xyz/home/"/>
+        <id>https://jeffersontan.xyz/home/</id>
+            <category term="Bio"/>
 
         <updated>2024-04-29T01:09:20+07:00</updated>
             <summary>
