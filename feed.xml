@@ -3,12 +3,75 @@
     <title>Jefferson Tan&#x27;s Webpage</title>
     <link href="https://jeffersontan.xyz/feed.xml" rel="self" />
     <link href="https://jeffersontan.xyz" />
-    <updated>2024-05-01T03:01:34+07:00</updated>
+    <updated>2024-07-16T17:11:15+07:00</updated>
     <author>
         <name>Jefferson Tan</name>
     </author>
     <id>https://jeffersontan.xyz</id>
 
+    <entry>
+        <title>Added Umami!</title>
+        <author>
+            <name>Jefferson Tan</name>
+        </author>
+        <link href="https://jeffersontan.xyz/added-umami/"/>
+        <id>https://jeffersontan.xyz/added-umami/</id>
+
+        <updated>2024-07-16T16:09:44+07:00</updated>
+            <summary>
+                <![CDATA[
+                    <p>After what seems like forever, I finally decided to post something for the first time on my blogpost.</p>
+<p>Before we get into this post, I'd just like to interject for a moment. <span style="text-decoration: line-through;">What you're referring to as Linux, </span><span style="text-decoration: line-through;">is in fact, GNU/Linux</span> I am not affiliated by Umami in any way shape or form, I just find them neat.</p>
+<hr>
+<div class="post__toc">
+<h3>Table of Contents</h3>
+<ul>
+<li><a href="#mcetoc_1i2teo7fa68">What is Umami?</a></li>
+<li><a href="#mcetoc_1i2teo7fa69">Why Umami?</a></li>
+<li><a href="#mcetoc_1i2tg2f5u8u">Conclusion</a></li>
+<li><a href="#mcetoc_1i2tf120m6h">Links and References</a></li>
+</ul>
+</div>
+
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>After what seems like forever, I finally decided to post something for the first time on my blogpost.</p>
+<p>Before we get into this post, I'd just like to interject for a moment. <span style="text-decoration: line-through;">What you're referring to as Linux, </span><span style="text-decoration: line-through;">is in fact, GNU/Linux</span> I am not affiliated by Umami in any way shape or form, I just find them neat.</p>
+<hr>
+<div class="post__toc">
+<h3>Table of Contents</h3>
+<ul>
+<li><a href="#mcetoc_1i2teo7fa68">What is Umami?</a></li>
+<li><a href="#mcetoc_1i2teo7fa69">Why Umami?</a></li>
+<li><a href="#mcetoc_1i2tg2f5u8u">Conclusion</a></li>
+<li><a href="#mcetoc_1i2tf120m6h">Links and References</a></li>
+</ul>
+</div>
+
+<h1 id="mcetoc_1i2teo7fa68">What is Umami?</h1>
+<p>So, what is this Umami thing anyways? Umami is a FOSS (Free and Open-Source) and privacy-focused web analytics uhh.. thing. It helps web admins view visitor data and whatnot for their websites.</p>
+<p>If you'd like to learn more <span style="text-decoration: line-through;">(and get a better explanation)</span>, you can check out their website <a href="https://umami.is/" target="_blank" rel="noopener noreferrer">here</a>.</p>
+<h1 id="mcetoc_1i2teo7fa69">Why Umami?</h1>
+<blockquote>
+<p>Why not just use Google Analytics or CloudFlare like any other sane person?</p>
+</blockquote>
+<p>Some of you may wonder why I chose this over any other analytics solution like Google Analytics. It's because I care about my privacy and the privacy of visitors like you guys and gals who visit this website, plus, I'm not a big fan of Google anyways.</p>
+<p>Another reason is that I can self-host Umami on my home server. I'll probably show my server some other time, but being able to self-host means that I control the data instead of some big corp. If you're curious, you can check out the analytics data over <a href="https://stats.jeffersontan.xyz/share/Dq1Qz7b4KYzxvSAb/jeffersontan.xyz" target="_blank" rel="noopener noreferrer">here</a>.</p>
+<h1 id="mcetoc_1i2tg2f5u8u">Conclusion</h1>
+<p>So in short, Umami is an analytics platform that's free and respects users' privacy. I chose it because I don't want to use Google and because I can host Umami myself on my own server.</p>
+<hr>
+<p>Do you guys think Umami is good? Or are there any better alternatives? Let me know, wait, you can't lol. I haven't added a comments system for this blog yet. But I'll probably add it eventually™. For now, there's not much to see here. Currently I don't have any other posts that I can promote but if you liked reading this then feel free to share this blog, I'd appreciate it.</p>
+<h1 id="mcetoc_1i2tf120m6h">Links and References</h1>
+<p>Here are all the important links in this page:</p>
+<ul>
+<li>Umami - <a href="https://umami.is/">https://umami.is/</a></li>
+<li>My analytics - <a href="https://stats.jeffersontan.xyz/share/Dq1Qz7b4KYzxvSAb/jeffersontan.xyz">https://stats.jeffersontan.xyz/share/Dq1Qz7b4KYzxvSAb/jeffersontan.xyz</a></li>
+</ul>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>About Me</title>
         <author>
