@@ -3,7 +3,7 @@
     <title>Jefferson Tan&#x27;s Webpage</title>
     <link href="https://jeffersontan.xyz/feed.xml" rel="self" />
     <link href="https://jeffersontan.xyz" />
-    <updated>2024-07-16T17:11:15+07:00</updated>
+    <updated>2024-07-16T17:12:55+07:00</updated>
     <author>
         <name>Jefferson Tan</name>
     </author>
@@ -22,16 +22,6 @@
                 <![CDATA[
                     <p>After what seems like forever, I finally decided to post something for the first time on my blogpost.</p>
 <p>Before we get into this post, I'd just like to interject for a moment. <span style="text-decoration: line-through;">What you're referring to as Linux, </span><span style="text-decoration: line-through;">is in fact, GNU/Linux</span> I am not affiliated by Umami in any way shape or form, I just find them neat.</p>
-<hr>
-<div class="post__toc">
-<h3>Table of Contents</h3>
-<ul>
-<li><a href="#mcetoc_1i2teo7fa68">What is Umami?</a></li>
-<li><a href="#mcetoc_1i2teo7fa69">Why Umami?</a></li>
-<li><a href="#mcetoc_1i2tg2f5u8u">Conclusion</a></li>
-<li><a href="#mcetoc_1i2tf120m6h">Links and References</a></li>
-</ul>
-</div>
 
                 ]]>
             </summary>
@@ -49,7 +39,6 @@
 <li><a href="#mcetoc_1i2tf120m6h">Links and References</a></li>
 </ul>
 </div>
-
 <h1 id="mcetoc_1i2teo7fa68">What is Umami?</h1>
 <p>So, what is this Umami thing anyways? Umami is a FOSS (Free and Open-Source) and privacy-focused web analytics uhh.. thing. It helps web admins view visitor data and whatnot for their websites.</p>
 <p>If you'd like to learn more <span style="text-decoration: line-through;">(and get a better explanation)</span>, you can check out their website <a href="https://umami.is/" target="_blank" rel="noopener noreferrer">here</a>.</p>
