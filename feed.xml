@@ -3,12 +3,79 @@
     <title>Jefferson Tan&#x27;s Webpage</title>
     <link href="https://jeffersontan.xyz/feed.xml" rel="self" />
     <link href="https://jeffersontan.xyz" />
-    <updated>2024-07-16T17:12:55+07:00</updated>
+    <updated>2024-07-18T17:15:37+07:00</updated>
     <author>
         <name>Jefferson Tan</name>
     </author>
     <id>https://jeffersontan.xyz</id>
 
+    <entry>
+        <title>BeamNG Linux Modding</title>
+        <author>
+            <name>Jefferson Tan</name>
+        </author>
+        <link href="https://jeffersontan.xyz/beamng-linux-modding/"/>
+        <id>https://jeffersontan.xyz/beamng-linux-modding/</id>
+            <category term="Linux"/>
+            <category term="Games"/>
+            <category term="BeamNG"/>
+
+        <updated>2024-07-18T11:08:10+07:00</updated>
+            <summary>
+                <![CDATA[
+                    <p>Mainly writing this because I'm very bored at work lol.</p>
+
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>Mainly writing this because I'm very bored at work lol.</p>
+
+<p>If you want to skip all the crap, feel free to jump to section 2.</p>
+<div class="post__toc">
+<h3>Table of Contents</h3>
+<ul>
+<li><a href="#mcetoc_1i320nh0g12">What is Proton?</a>
+<ul>
+<li><a href="#mcetoc_1i3219b3015">Why does it matter?</a></li>
+</ul>
+</li>
+<li><a href="#mcetoc_1i32ae26f1q">Actually installing the mods</a></li>
+</ul>
+</div>
+<h1 id="mcetoc_1i320nh0g12">What is Proton?</h1>
+<p>Now for those who are not familiar with Linux in the first place, we need to learn about Proton first. Well, usually if you want to play a game on Windows, you just press start. However, games aren't usually made with Linux in mind (especially for more popular titles). This is where Proton comes in.</p>
+<p>What is it you may ask? In simple terms, Proton is a compatibility layer that allows Windows programs to run on Linux and it works by translating Windows calls and APIs into something that Linux understands. It is actually based off a project called WINE (which funnily enough stands for WINE is not an emulator) that has patches and libraries added from Valve to improve performance for games.</p>
+<h2 id="mcetoc_1i3219b3015">Why does it matter?</h2>
+<p>To make Windows games and programs work, Proton needs to create a "prefix" which is a small sandboxed environment that Windows programs run. Usually this prefix contains folder structures that looks similar to a Windows install but with much less stuff in them because Windows programs expect certain folders to exist at a certain location.</p>
+<p>If you're using Steam (which I assume you do), this prefix is usually located in this path:</p>
+<pre class="language-bash"><code>/home/$USER/.local/share/Steam/steamapps/compatdata/</code></pre>
+<p>It contains prefixes for all of your Steam games that requires Proton to run. For BeamNG specifically, it's located in a folder called "284160".</p>
+<h1 id="mcetoc_1i32ae26f1q">Actually installing the mods</h1>
+<p>From here on, the process for installing mods for BeamNG should be similar to how you install it on Windows.</p>
+<p>First, we head over to BeamNG's prefix folder:</p>
+<pre class="language-bash"><code># Replace $USER with your username, of course
+/home/$USER/.local/share/Steam/steamapps/compatdata/284160/pfx/drive_c</code></pre>
+<p>In the drive_c folder, you'll notice a few familiar folders:</p>
+<figure class="post__image post__image--center" ><img loading="lazy" src="https://jeffersontan.xyz/media/posts/3/Screenshot-from-2024-07-18-14-13-44.png" alt="A picture of the folder structure inside the prefix." width="980" height="180" sizes="100vw" srcset="https://jeffersontan.xyz/media/posts/3/responsive/Screenshot-from-2024-07-18-14-13-44-xs.webp 300w ,https://jeffersontan.xyz/media/posts/3/responsive/Screenshot-from-2024-07-18-14-13-44-sm.webp 480w ,https://jeffersontan.xyz/media/posts/3/responsive/Screenshot-from-2024-07-18-14-13-44-md.webp 768w ,https://jeffersontan.xyz/media/posts/3/responsive/Screenshot-from-2024-07-18-14-13-44-lg.webp 1024w ,https://jeffersontan.xyz/media/posts/3/responsive/Screenshot-from-2024-07-18-14-13-44-xl.webp 1360w ,https://jeffersontan.xyz/media/posts/3/responsive/Screenshot-from-2024-07-18-14-13-44-2xl.webp 1600w">
+<figcaption >Windows system folder structure</figcaption>
+</figure>
+<p>Next, we'll navigate to this path:</p>
+<pre class="language-bash"><code>/home/$USER/.steam/steam/steamapps/compatdata/284160/pfx/drive_c/users/steamuser/AppData/Local/BeamNG.drive/</code></pre>
+<p>If you've played previous versions of BeamNG before, you'll notice a few folders like this:</p>
+<figure ><figure class="post__image post__image--center"><img loading="lazy"  src="https://jeffersontan.xyz/media/posts/3/Screenshot-from-2024-07-18-17-00-45.png" alt="Folders of different BeamNG versions" width="642" height="148" sizes="100vw" srcset="https://jeffersontan.xyz/media/posts/3/responsive/Screenshot-from-2024-07-18-17-00-45-xs.webp 300w ,https://jeffersontan.xyz/media/posts/3/responsive/Screenshot-from-2024-07-18-17-00-45-sm.webp 480w ,https://jeffersontan.xyz/media/posts/3/responsive/Screenshot-from-2024-07-18-17-00-45-md.webp 768w ,https://jeffersontan.xyz/media/posts/3/responsive/Screenshot-from-2024-07-18-17-00-45-lg.webp 1024w ,https://jeffersontan.xyz/media/posts/3/responsive/Screenshot-from-2024-07-18-17-00-45-xl.webp 1360w ,https://jeffersontan.xyz/media/posts/3/responsive/Screenshot-from-2024-07-18-17-00-45-2xl.webp 1600w"></figure>
+<figcaption >Folders named after the game's versions</figcaption>
+</figure>
+<p>Then, open the folder for the latest version of the game and that's where your mods folder resides. You can then simply copy-paste or drag and drop your mods in the folder.</p>
+<blockquote>
+<p>Wait, does this mean I can just migrate my mods from Windows?</p>
+</blockquote>
+<p>Yep. You can copy all the mods you had from Windows if you're dual-booting Linux, or better yet, you can create a symlink so you don't have a bunch of duplicate files eating precious disk space.</p>
+<h1>Conclusion</h1>
+<p>To summarise everything, installing mods for BeamNG in Linux isn't too different from Windows. The mods folder is located in a slightly different location and you can simply copy your desired mods into the folder.</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Added Umami!</title>
         <author>
@@ -29,7 +96,7 @@
             <![CDATA[
                 <p>After what seems like forever, I finally decided to post something for the first time on my blogpost.</p>
 <p>Before we get into this post, I'd just like to interject for a moment. <span style="text-decoration: line-through;">What you're referring to as Linux, </span><span style="text-decoration: line-through;">is in fact, GNU/Linux</span> I am not affiliated by Umami in any way shape or form, I just find them neat.</p>
-<hr>
+
 <div class="post__toc">
 <h3>Table of Contents</h3>
 <ul>
@@ -39,6 +106,7 @@
 <li><a href="#mcetoc_1i2tf120m6h">Links and References</a></li>
 </ul>
 </div>
+<hr>
 <h1 id="mcetoc_1i2teo7fa68">What is Umami?</h1>
 <p>So, what is this Umami thing anyways? Umami is a FOSS (Free and Open-Source) and privacy-focused web analytics uhh.. thing. It helps web admins view visitor data and whatnot for their websites.</p>
 <p>If you'd like to learn more <span style="text-decoration: line-through;">(and get a better explanation)</span>, you can check out their website <a href="https://umami.is/" target="_blank" rel="noopener noreferrer">here</a>.</p>
